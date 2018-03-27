@@ -1,0 +1,104 @@
+# System
+
+The entities on which you can perform NetScaler SDX CLI operations:
+
+-  [MgmtSystemUtility](.//mgmtsystemutility.md) -  Device generic utility
+-  [aaaserver](.//aaaserver.md) -  AAA Server configuration
+-  [admindomainInfo](.//admindomaininfo.md) -  Administrative Domain Information
+-  [appcategory](.//appcategory.md) -  Application Category
+-  [backup](.//backup.md) -  backup
+-  [backupexternalstorage](.//backupexternalstorage.md) -  Backup File External storage
+-  [backupfile](.//backupfile.md) -  Backup files
+-  [backuppolicy](.//backuppolicy.md) -  Backup Policy
+-  [capacity](.//capacity.md) -  License pool capacity of appliance
+-  [centralmanagmentserver](.//centralmanagmentserver.md) -  Central managment server
+-  [ciphergroup](.//ciphergroup.md) -  Cipher Group
+-  [ciphersuite](.//ciphersuite.md) -  Cipher Suite
+-  [cliprompt](.//cliprompt.md) -  CLI Prompt string
+-  [configJob](.//configjob.md) -  Configuration Job
+-  [configJobDetails](.//configjobdetails.md) -  Configuration Job Details
+-  [configTemplateExecute](.//configtemplateexecute.md) -  Configuration Template Execute
+-  [configVariable](.//configvariable.md) -  Configuration Variables for use in configuration template
+-  [configurationTemplate](.//configurationtemplate.md) -  Configuration Template
+-  [deviceLicenseInfo](.//devicelicenseinfo.md) -  Device License Info
+-  [device\_values\_map](.//device_values_map.md) -  Map of Device and value to be used for it
+-  [deviceprofile](.//deviceprofile.md) -  Device Profile
+-  [eventrule\_variable\_values](.//eventrule_variable_values.md) -  Variable Values required for config template execution
+-  [hostname](.//hostname.md) -  System Hostname
+-  [ip\_block](.//ip_block.md) -  This collection holds private ip block information.
+-  [ldapserver](.//ldapserver.md) -  LDAP Server
+-  [license](.//license.md) -  License Information
+-  [licenseServerInfo](.//licenseserverinfo.md) -  License server information
+-  [licensefile](.//licensefile.md) -  License File
+-  [licenseproxyserver](.//licenseproxyserver.md) -  License proxy configuration
+-  [licenseserver](.//licenseserver.md) -  License server information
+-  [licenseserverpool](.//licenseserverpool.md) -  License pool capacity of license server
+-  [mail\_attachment](.//mail_attachment.md) -  Attachments for e-mail action configured in filter rules
+-  [mailprofile](.//mailprofile.md) -  Mail profile
+-  [maintenanceJob](.//maintenancejob.md) -  Maintenance Job
+-  [managedDeviceSummary](.//manageddevicesummary.md) -  Managed Device Summary
+-  [manageddevice](.//manageddevice.md) -  Managed Device
+-  [managementservicestatistics](.//managementservicestatistics.md) -  Health Monitoring Stats
+-  [mas\_agent\_image](.//mas_agent_image.md) -  MAS Agent Image
+-  [mps\_geolocation\_region](.//mps_geolocation_region.md) -  Geolocation Region Information
+-  [networkconfig](.//networkconfig.md) -  SDX Network Configuration
+-  [networkpool](.//networkpool.md) -  Network Pool
+-  [ntpparam](.//ntpparam.md) -  NTP Parameters
+-  [ntpserver](.//ntpserver.md) -  NTP Server
+-  [ntpsync](.//ntpsync.md) -  NTP Sync
+-  [passwordpolicy](.//passwordpolicy.md) -  Password Policy configuration
+-  [platform\_specs](.//platform_specs.md) -  Platform Specification
+-  [prunepolicy](.//prunepolicy.md) -  Prune Policy
+-  [radiusserver](.//radiusserver.md) -  Radius Server configuration
+-  [rba\_authscope\_props](.//rba_authscope_props.md) -  RBA Authorized Scope Properties
+-  [rba\_client\_data](.//rba_client_data.md) -  RBA Client Data
+-  [rba\_module\_client\_data](.//rba_module_client_data.md) -  RBA Module Client Data
+-  [rba\_operation](.//rba_operation.md) -  RBA Operation
+-  [rba\_operation\_client\_data](.//rba_operation_client_data.md) -  RBA Operation Client Data
+-  [rba\_policy](.//rba_policy.md) -  RBA Policy
+-  [rba\_resourcegroup](.//rba_resourcegroup.md) -  RBA Resource Group
+-  [rba\_resourcegroup\_props](.//rba_resourcegroup_props.md) -  RBA Resource Group Props
+-  [rba\_role](.//rba_role.md) -  RBA Role
+-  [rba\_statement](.//rba_statement.md) -  RBA Statement
+-  [rba\_submodule\_client\_data](.//rba_submodule_client_data.md) -  RBA Sub Module Client Data
+-  [rba\_ui](.//rba_ui.md) -  RBA for UI components
+-  [rediscover](.//rediscover.md) -  Inventory
+-  [singlebundleimage](.//singlebundleimage.md) -  CBSDX Single Bundle Build File
+-  [singlebundleinfo](.//singlebundleinfo.md) -  Single Bundle File Info
+-  [singlebundleupgrade](.//singlebundleupgrade.md) -  CBSDX Single Bundle Upgrade
+-  [smsprofile](.//smsprofile.md) -  SMS profile
+-  [smsserver](.//smsserver.md) -  SMS server properties
+-  [snmpalarm](.//snmpalarm.md) -  SNMP Alarm Configurations
+-  [snmpinfo](.//snmpinfo.md) -  SNMP Information
+-  [snmpmanager](.//snmpmanager.md) -  SNMP Agent Manager configuration
+-  [snmpmib](.//snmpmib.md) -  SNMP MIB Information
+-  [snmptrap](.//snmptrap.md) -  SNMP Trap Destinations
+-  [snmpuser](.//snmpuser.md) -  SNMP User
+-  [snmpview](.//snmpview.md) -  SNMP view
+-  [sslcertfile](.//sslcertfile.md) -  SSL certificate File
+-  [sslcertificate](.//sslcertificate.md) -  Install SSL certificate on Management Service
+-  [sslciphers](.//sslciphers.md) -  SSL Cipher Config
+-  [sslkeyfile](.//sslkeyfile.md) -  SSL key File
+-  [sslsettings](.//sslsettings.md) -  SSL Settings
+-  [sslv3Setting](.//sslv3setting.md) -  SSLV3 Setting
+-  [startstat](.//startstat.md) -  Start Stat
+-  [syslogparameters](.//syslogparameters.md) -  Syslog Parameters
+-  [syslogserver](.//syslogserver.md) -  Syslog Server
+-  [systembackuprestore](.//systembackuprestore.md) -  Backup
+-  [systemgroup](.//systemgroup.md) -  System Groups
+-  [systemimage](.//systemimage.md) -  System Build File
+-  [systemsession](.//systemsession.md) -  Client Session
+-  [systemsettings](.//systemsettings.md) -  System Settings
+-  [systemstatus](.//systemstatus.md) -  System Status
+-  [systemupgrade](.//systemupgrade.md) -  System Upgrade
+-  [systemuser](.//systemuser.md) -  System User
+-  [tacacsserver](.//tacacsserver.md) -  TACACS Server configuration
+-  [taskdevicelog](.//taskdevicelog.md) -  Task Device Log
+-  [techsupport](.//techsupport.md) -  Technical Support
+-  [tenant](.//tenant.md) -  Tenants
+-  [timezone](.//timezone.md) -  Current timezone
+-  [userlockoutpolicy](.//userlockoutpolicy.md) -  User Lockout Policy configuration
+-  [variable\_values](.//variable_values.md) -  Variable Values required for config template execution
+-  [vlandetails](.//vlandetails.md) -  VLAN details
+-  [vlansummary](.//vlansummary.md) -  VLAN summary
+-  [vmdevice](.//vmdevice.md) -  VM Device
