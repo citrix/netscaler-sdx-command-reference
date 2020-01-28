@@ -2,6 +2,8 @@
 site_name: Citrix NetScaler SDX 12.0 Command Reference
 site_description: Citrix NetScaler SDX 12.0 Command Reference
 site_title: Developer Docs
+site_url: https://developer-docs.citrix.com
+
 
 # Copyright
 copyright: 'Copyright &copy; 1999-2019 Citrix Systems, Inc. All rights reserved. '
@@ -204,3 +206,4 @@ nav:
     - xennsvpximage: xenserver/xennsvpximage.md
     - xensupplementalpack: xenserver/xensupplementalpack.md
     - xenupgrade: xenserver/xenupgrade.md
+  - Questions?: https://discussions.citrix.com/forum/1385-citrix-developer-exchange/
